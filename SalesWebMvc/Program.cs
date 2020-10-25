@@ -11,7 +11,8 @@ using Microsoft.Extensions.Logging;
 namespace SalesWebMvc
 {
     public class Program
-    {
+    {       
+        // EntryPoint da aplicacao web
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
